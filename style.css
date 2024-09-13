@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+    max-width: 2200px;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.title {
+    text-align: center;
+    border: 20px groove darkgoldenrod;
+    background-color: rgba(125, 134, 91, 0.918);
+    margin: 0 660px;
+}
+
+.navigation {
+    background-color: burlywood;
+    margin-right: 1700px;
+    height: 400px;
+    width: 400px;
+    border: cornflowerblue ridge 5px;
+    padding: 1px;
+}
+
+.list {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid rebeccapurple 3px;
+    margin: 4px auto;
+    width: 380px;
+    height: 380px;
+    list-style-type: square;
+    padding-top: 7px;
+}
+
+.mexican-lasagna {
+    background-color: rgba(73, 162, 173, 0.459);
+    margin: 3px 5px 3px -20px;
+    padding: 3px 2px;
+    width: 130px;
+}
+
+.teriyaki-salmon-bowl {
+    background-color: rgba(73, 162, 173, 0.459);
+    margin: 3px 5px 3px -20px;
+    padding: 3px 2px;
+    width: 160px;
+}
+
+.ronto-wrap {
+    background-color: rgba(73, 162, 173, 0.459);
+    margin: 3px 5px 3px -20px;
+    padding: 3px 2px;
+    width: 6em;
+}
+
+a:hover {
+    background-color: rgba(50, 109, 50, 0.651);
+}
