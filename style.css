@@ -13,15 +13,15 @@ html {
     text-align: center;
     border: 20px groove darkgoldenrod;
     background-color: rgba(125, 134, 91, 0.918);
-    margin: 0 660px;
 }
 
 .navigation {
     background-color: burlywood;
     margin-right: 1700px;
-    height: 400px;
-    width: 400px;
-    border: cornflowerblue ridge 5px;
+    margin-top: 20px;
+    height: 320px;
+    width: 320px;
+    border: cornflowerblue ridge 7px;
     padding: 1px;
 }
 
@@ -29,33 +29,45 @@ html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: solid rebeccapurple 3px;
     margin: 4px auto;
-    width: 380px;
-    height: 380px;
+    width: 300px;
+    height: 300px;
     list-style-type: square;
     padding-top: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: inherit;
 }
 
-.mexican-lasagna {
-    background-color: rgba(73, 162, 173, 0.459);
+.list .mexican-lasagna {
+    background-color: rgba(15, 75, 83, 0.459);
     margin: 3px 5px 3px -20px;
     padding: 3px 2px;
     width: 130px;
+    height: 40px;
 }
 
-.teriyaki-salmon-bowl {
+.list .teriyaki-salmon-bowl {
     background-color: rgba(73, 162, 173, 0.459);
     margin: 3px 5px 3px -20px;
     padding: 3px 2px;
     width: 160px;
+    height: 40px;
 }
 
-.ronto-wrap {
+.list .ronto-wrap {
     background-color: rgba(73, 162, 173, 0.459);
     margin: 3px 5px 3px -20px;
     padding: 3px 2px;
     width: 6em;
+    height: 40px;
 }
 
 a:hover {
     background-color: rgba(50, 109, 50, 0.651);
+}
+
+a {
+    color: rgb(33, 113, 204);
 }
